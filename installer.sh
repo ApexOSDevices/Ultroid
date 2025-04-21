@@ -143,6 +143,8 @@ install_requirements() {
     echo -e "\n\nInstalling requirements... "
     pip3 install -q --no-cache-dir -r $DIR/requirements.txt
     pip3 install -q -r $DIR/resources/startup/optional-requirements.txt
+    pip3 check
+    pip3 install --upgrade --force-reinstall pip setuptools
 }
 
 railways_dep() {

@@ -9,3 +9,5 @@ requests
 aiohttp
 catbox-uploader
 cloudscraper
+google_trans_new
+pydantic==1.8.2
