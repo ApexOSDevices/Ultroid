@@ -32,6 +32,14 @@
             "description": "Mongo Database URL",
             "value": ""
         },
+        "LOG_CHANNEL": {
+            "description": "Channel for Bot Logs",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Inline Bot Token",
+            "value": ""
+        },
         "HEROKU_API": {
             "description": "Heroku API token. Mandatory for Heroku Deploy...",
             "value": "",
